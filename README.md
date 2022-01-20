@@ -51,6 +51,7 @@ As a result, we have the next handlers based on the folder structure:
 - `/routes/get_foo.ts` -> `GET /foo`
 - `/routes/foo/get.ts` -> `GET /foo`
 - `/routes/foo/post.ts` -> `POST /foo`
+- `/routes/foo/get_bar.ts` -> `GET /foo/bar`
 - `/routes/foo/bar/get.ts` -> `GET /foo/bar`
 - `/routes/get.id.ts` -> `GET /:id`
 - `/routes/get.id1.id2.id3.ts` -> `GET /:id1/:id2/:id3`
