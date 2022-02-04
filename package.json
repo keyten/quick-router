@@ -1,0 +1,22 @@
+{
+  "name": "quick-router",
+  "version": "1.0.0",
+  "description": "Say, we have folder structure: ``` src/ ├─ routes/ │  ├─ auth/ │  │  ├─ post_login.ts │  │  ├─ post_register.ts │  │  ├─ post_logout.ts │  ├─ entity_name/ │  │  ├─ get.ts │  │  ├─ get.id.ts │  │  ├─ post.ts │  │  ├─ put.id.ts │  │  ├─ delete.id.ts ├─ app.ts ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyten/quick-router.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keyten/quick-router/issues"
+  },
+  "homepage": "https://github.com/keyten/quick-router#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
