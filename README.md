@@ -54,6 +54,7 @@ As a result, we have the next handlers based on the folder structure:
 - `/routes/foo/get_bar.ts` -> `GET /foo/bar`
 - `/routes/foo/bar/get.ts` -> `GET /foo/bar`
 - `/routes/get.id.ts` -> `GET /:id`
+- `/routes/get_foo.id.ts` -> `GET /foo/:id`
 - `/routes/get.id1.id2.id3.ts` -> `GET /:id1/:id2/:id3`
 
 Only js / ts extension in files.
